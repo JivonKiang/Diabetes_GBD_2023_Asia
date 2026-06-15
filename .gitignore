@@ -1,0 +1,17 @@
+# R data files
+*.RData
+*.rds
+*.rda
+
+# R history
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
