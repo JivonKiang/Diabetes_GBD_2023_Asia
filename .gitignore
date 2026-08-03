@@ -15,3 +15,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Local source data and generated analysis output
+data/
+output/
+Joinpoint_Analysis_Results/

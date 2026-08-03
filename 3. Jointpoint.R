@@ -14,9 +14,13 @@ library(forcats)
 library(scales)
 library(parallel)
 
-# 设置工作目录
-target_dir <- "E:/20250414 Wenping Gong gaint mission/20260318 Yufeng Li/GBD数据下载 20260324"  # 注意使用正斜杠或双反斜杠
-setwd(target_dir)  
+# Set the authorised local data directory through an environment variable.
+target_dir <- Sys.getenv("GBD_DATA_ROOT", unset = "")
+if (identical(target_dir, "") || !dir.exists(target_dir)) {
+  stop("Set GBD_DATA_ROOT to the local authorised GBD data directory before running this script.")
+}
+target_dir <- normalizePath(target_dir, mustWork = TRUE)
+setwd(target_dir)
 
 # 创建主输出目录
 output_main_dir <- "Joinpoint_Analysis_Results"

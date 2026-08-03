@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated iScience article."
+title: "Diabetes GBD 2023 - Asia-Pacific Analysis"
+type: software
+authors:
+  - name: "JivonKiang"
+repository-code: "https://github.com/JivonKiang/Diabetes_GBD_2023_Asia"
+license: MIT
+version: "1.0.0"
+date-released: 2026-08-03
+keywords:
+  - diabetes mellitus
+  - global burden of disease
+  - GBD 2023
+  - Asia-Pacific
+  - reproducible research
+references:
+  - type: article
+    authors:
+      - family-names: "Li"
+        given-names: "Yufeng"
+    title: "East Asia and high-income Asia Pacific burden of diabetes mellitus from 1990 to 2023"
+    journal: "iScience"
+    year: 2026
+    doi: "10.1016/j.isci.2026.116590"
