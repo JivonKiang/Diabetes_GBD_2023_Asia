@@ -3,6 +3,10 @@
 Public analysis code for the Asia-Pacific diabetes burden study using Global
 Burden of Disease (GBD) 2023 estimates.
 
+Maintainer: Fan Jiang (`JivonKiang`)
+
+ORCID: <https://orcid.org/0000-0002-9257-206X>
+
 ## Associated publication
 
 The repository supports the published article:
@@ -11,6 +15,10 @@ The repository supports the published article:
 > mellitus from 1990 to 2023. *iScience* (2026).
 
 DOI: <https://doi.org/10.1016/j.isci.2026.116590>
+
+This is a publication-linked research-code release. It makes the analysis
+workflow inspectable and reusable with authorised GBD data while keeping
+restricted source data outside the repository.
 
 ## Scope
 

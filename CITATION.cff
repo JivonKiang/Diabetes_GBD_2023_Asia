@@ -3,7 +3,9 @@ message: "If you use this code, please cite the associated iScience article."
 title: "Diabetes GBD 2023 - Asia-Pacific Analysis"
 type: software
 authors:
-  - name: "JivonKiang"
+  - given-names: "Fan"
+    family-names: "Jiang"
+    orcid: "https://orcid.org/0000-0002-9257-206X"
 repository-code: "https://github.com/JivonKiang/Diabetes_GBD_2023_Asia"
 license: MIT
 version: "1.0.0"
